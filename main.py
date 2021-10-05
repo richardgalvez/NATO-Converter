@@ -30,7 +30,7 @@ def split(text_to_split):
     return list(text_to_split)
 
 
-text_to_convert = input("Enter the text you need to convert into NATO Phonetic Alphabet!\n")
+text_to_convert = input("Enter the text you need to have it converted into the NATO Phonetic Alphabet!\n")
 
 text_list = (split(text_to_convert))
 
