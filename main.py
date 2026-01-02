@@ -25,7 +25,6 @@ x = X = "Xray"
 y = Y = "Yankee"
 z = Z = "Zulu"
 
-
 def split(text_to_split):
     return list(text_to_split)
 
@@ -36,4 +35,4 @@ text_list = (split(text_to_convert))
 
 
 for letter in text_to_convert:
-    print(eval(letter))
+    print(letter)
