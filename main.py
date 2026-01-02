@@ -1,38 +1,17 @@
-a = A = "Alpha"
-b = B = "Bravo"
-c = C = "Charlie"
-d = D = "Delta"
-e = E = "Echo"
-f = F = "Foxtrot"
-g = G = "Golf"
-h = H = "Hotel"
-i = I = "India"
-j = J = "Juliet"
-k = K = "Kilo"
-l = L = "Lima"
-m = M = "Mike"
-n = N = "November"
-o = O = "Oscar"
-p = P = "Papa"
-q = Q = "Quebec"
-r = R = "Romeo"
-s = S = "Sierra"
-t = T = "Tango"
-u = U = "Uniform"
-v = V = "Victor"
-w = W = "Whiskey"
-x = X = "Xray"
-y = Y = "Yankee"
-z = Z = "Zulu"
+# Array that contains all NATO Phonetic Alphabet strings.
+nato_alphabet = ["Alpha", "Bravo", "Charlie", "Delta", "Echo", "Foxtrot", "Golf",
+                 "Hotel", "India", "Juliet", "Kilo", "Lima", "Mike", "November",
+                 "Oscar", "Papa", "Quebec", "Romeo", "Sierra", "Tango", "Uniform"
+                 "Victor", "Whiskey", "X-Ray", "Yankee", "Zulu"]
 
-def split(text_to_split):
-    return list(text_to_split)
+input_string = input("Enter the text you need to have it converted into the NATO Phonetic Alphabet!\n").upper()
 
+# TODO: Account for numbers/integers
+def convert_to_nato(char: str):
+    """
+    Match the provided uppercase character to its ASCII value and output its converted NATO value.
+    """
+    return nato_alphabet[ord(char) - 65]
 
-text_to_convert = input("Enter the text you need to have it converted into the NATO Phonetic Alphabet!\n")
-
-text_list = (split(text_to_convert))
-
-
-for letter in text_to_convert:
-    print(letter)
+for letter in input_string:
+    print(convert_to_nato(letter))
