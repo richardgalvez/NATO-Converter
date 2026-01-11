@@ -1,7 +1,7 @@
 # Array that contains all NATO Phonetic Alphabet strings.
 nato_alphabet = ["Alpha", "Bravo", "Charlie", "Delta", "Echo", "Foxtrot", "Golf",
                  "Hotel", "India", "Juliet", "Kilo", "Lima", "Mike", "November",
-                 "Oscar", "Papa", "Quebec", "Romeo", "Sierra", "Tango", "Uniform"
+                 "Oscar", "Papa", "Quebec", "Romeo", "Sierra", "Tango", "Uniform",
                  "Victor", "Whiskey", "X-Ray", "Yankee", "Zulu"]
 
 # TODO: Account for numbers/integers
