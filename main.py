@@ -1,7 +1,6 @@
-# Array that contains all NATO Phonetic Alphabet strings.
 from typing import List
 
-
+# Array that contains all NATO Phonetic Alphabet strings.
 nato_alphabet = ["Alpha", "Bravo", "Charlie", "Delta", "Echo", "Foxtrot", "Golf",
                  "Hotel", "India", "Juliet", "Kilo", "Lima", "Mike", "November",
                  "Oscar", "Papa", "Quebec", "Romeo", "Sierra", "Tango", "Uniform",
